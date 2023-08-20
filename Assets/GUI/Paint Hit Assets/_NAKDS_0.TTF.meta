@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5eb709bdc4f5fef43834b8c7d39fd86c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - AnakeimDisplaySSK
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 327b33de2f5316443b27e802e19eae8b, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

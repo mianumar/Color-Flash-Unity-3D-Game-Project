@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5153860765711981442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5153860765711981443}
+  - component: {fileID: 450138127}
+  m_Layer: 0
+  m_Name: Circle- Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5153860765711981443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5153860765711981442}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &450138127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5153860765711981442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a743114c609744439a7d6ec5aaffa1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Circle: {fileID: 7027815538445360593, guid: 9252a705565183845b3a885689b24e5d, type: 3}
+  CircleSpawnPoint: {fileID: 5153860765711981442}
+  CircleParentTrans: {fileID: 253949921414762407, guid: 577ce02a8992bbc43bc52f3de697d165, type: 3}
+  hit: 0
+  _isStopRotation: 0
+  RotatorAnim: {fileID: 507588894981488630, guid: 1de729bd8439ffd4fb2e79e91e70a818, type: 3}
+  AllCircles: []
+  ballSpawnner: {fileID: 6625965597897485519, guid: f7ac658fa5991a541917df4d13cb393e, type: 3}
+  playerShoot: {fileID: 1762665415869049861, guid: 12b98d0f9b874ba4d855f8c207b34175, type: 3}
