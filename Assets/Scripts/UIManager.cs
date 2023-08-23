@@ -39,6 +39,7 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
+
         PlayerDeadSound = GetComponent<AudioSource>();
 
         //for time
