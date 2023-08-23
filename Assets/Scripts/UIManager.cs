@@ -58,6 +58,7 @@ public class UIManager : MonoBehaviour
 
         PlayerPrefs.GetInt("CircleCounter", 0);
 
+
     }
 
     // Update is called once per frame
