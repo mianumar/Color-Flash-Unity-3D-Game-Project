@@ -113,7 +113,27 @@ public class UIManager : MonoBehaviour
     }
     public void PlayBtn()
     {
+        Attempts++;
+        PlayerPrefs.SetInt("Attempts", Attempts);
+        Debug.Log("My Attempt " + Attempts);
+        MenuPanel.SetActive(false);
+        _isPlay = true;
+        pausedBtn.SetActive(true);
 
+        //for current stats reset
+        circleSpawnner.Current_t = 0;
+        GlobalVariables.CurrentTotalBallFired = 0;
+        GlobalVariables.C_circleCount = 0;
+        GlobalVariables.C_Hours = 0;
+        GlobalVariables.C_Mints = 0;
+        GlobalVariables.C_Sec = 0;
+        GlobalVariables.CurrentpowerUpCount = 0;
+        PlayerPrefs.SetInt("C-TotalBallfire", GlobalVariables.CurrentTotalBallFired);
+        PlayerPrefs.SetInt("C-CircleCounter", GlobalVariables.C_circleCount);//for current stats
+        PlayerPrefs.GetInt("C-PowerUpCount", GlobalVariables.CurrentpowerUpCount);
+        PlayerPrefs.GetInt("C-hours", GlobalVariables.C_Hours);
+        PlayerPrefs.GetInt("C-mints", GlobalVariables.C_Mints);
+        PlayerPrefs.GetInt("C-Sec", GlobalVariables.C_Sec);
 
     }
 
