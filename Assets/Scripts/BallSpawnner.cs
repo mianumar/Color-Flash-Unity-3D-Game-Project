@@ -41,7 +41,6 @@ public class BallSpawnner : MonoBehaviour
     bool _isShoot = true;
     public int TimePerSec;
 
-
   
     public Text TotaltimeTxt;
     public Text TotalBallFiredTxt;
@@ -96,6 +95,7 @@ public class BallSpawnner : MonoBehaviour
         MintsValue.text ="" + (int)GlobalVariables.Mints;
         SecValue.text ="" + (int)GlobalVariables.Sec;
         pointsTxt.text = "  "+GlobalVariables.Points;
+
 
 
         //for current stats
@@ -154,6 +154,7 @@ private void Update()
 
             NewBall.GetComponent<Rigidbody>().AddForce(new Vector3(0, 0, 350f));
             StartCoroutine(SpawnBallTime());
+
 
           //  playerShoot.Player.GetComponent<Renderer>().material.color = Random.ColorHSV(0f, 1f, 1f, 1f, 0.5f, 1f);
 
