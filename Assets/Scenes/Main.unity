@@ -778,7 +778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18f9f9fb4e7ecfa4f801fb0c90bdb00c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4294084f7e5aab49a90c16d78f3b23d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1661,7 +1661,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18f9f9fb4e7ecfa4f801fb0c90bdb00c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4294084f7e5aab49a90c16d78f3b23d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -4200,7 +4200,7 @@ MonoBehaviour:
   MenuPanel: {fileID: 1072927000}
   StatsPanel: {fileID: 1645807192}
   pausedBtn: {fileID: 1557994831}
-  TimePanael: {fileID: 1448662533}
+  TimePanel: {fileID: 1448662533}
   Counter: 10
   Attempts: 0
   playerShoot: {fileID: 1762665415869049859, guid: 12b98d0f9b874ba4d855f8c207b34175, type: 3}
@@ -6872,7 +6872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1557994832
 RectTransform:
   m_ObjectHideFlags: 0
@@ -7765,7 +7765,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18f9f9fb4e7ecfa4f801fb0c90bdb00c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4294084f7e5aab49a90c16d78f3b23d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -8571,7 +8571,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: Restart
 --- !u!222 &1890460734
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class UIManager : MonoBehaviour
 {
-    public GameObject ConterPanel, ResumePanel, MenuPanel, StatsPanel, pausedBtn,TimePanael;
+    public GameObject ConterPanel, ResumePanel, MenuPanel, StatsPanel, pausedBtn,TimePanel;
     //  public PlayerShoot Player;
     public int Counter = 10;
     public int Attempts = 0;
@@ -191,13 +191,13 @@ public class UIManager : MonoBehaviour
     public void ShowStats()
     {
         StatsPanel.SetActive(true);
-        TimePanael.SetActive(false);
+        TimePanel.SetActive(false);
     }
 
     public void CloseStats()
     {
         StatsPanel.SetActive(false);
-        TimePanael.SetActive(true);
+        TimePanel.SetActive(true);
     }
 
     public void QuitBtn(){
